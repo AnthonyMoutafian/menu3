@@ -1,0 +1,42 @@
+body , html {
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+}
+.list{
+    list-style: none;
+}
+.list a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: darkgoldenrod;
+}
+
+.f{
+    border-right: 1px solid white;
+    float: left;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+}
+.s{
+    margin-left: -40px;
+}
+.f:hover > .submenu{
+    display: block;
+}
+
+.submenu2{
+    display: none;
+    position: absolute;
+}
+.s:hover> .submenu2{
+    display: block;
+}
