@@ -3,39 +3,33 @@
 <head>
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <ul class="menu">
-        <li class="list f"><a href="#">Home</a></li>
-        <li class="list f">
-            <a href="#">About</a>
-            <ul class="submenu"> 
-                <li class="list s"><a href="#">hello</a></li>
-                <li class="list s">
-                    <a href="#">test1</a>
-                    <ul class="submenu2">
-                        <li class="list t"><a href="#">test4</a></li>
-                        <li class="list t">
-                            <a href="#">test5</a>
-                            <ul class="submenu3">
-                                <li class="list four"><a href="#">eim1</a></li>
-                                <li class="list four"><a href="#">esim2</a></li>
-                                <li class="list four"><a href="#">esim3</a></li>
-                                <li class="list four"><a href="#">esim4</a></li>
-                            </ul>
-                        </li>
-                        <li class="list t"><a href="#">test6</a></li>
-                        <li class="list t"><a href="#">test7</a></li>
-                    </ul>
-                </li>
-                <li class="list s"><a href="#">test8</a></li>
-                <li class="list s"><a href="#">test2</a></li>
-                <li class="list s"><a href="#">test3</a></li>
+    <header class="header">
+       <ul class="menu">
+          <li>
+            <a href="#"><span class="fa-solid fa-house"></span> Home</a>
+        </li>
+        <li class="hovermenu">
+            <a href="#">Categories <span class="fa-solid fa-arrow-right"></span></a>
+            <ul class="submenu one">
+                <li><a href="#">Test1</a></li>
+                <li><a href="#">Test2</a></li>
+                <li><a href="#">Test3</a></li>
             </ul>
         </li>
-        <li class="list f"><a href="#">Contact</a></li>
-        <li class="list f"><a href="#">Categories</a></li>
-    </ul>
+        <li class="hovermenu">
+            <a>About <span class="fa-solid fa-arrow-right"></span></a>
+            <ul class="submenu two">
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">CSS</a></li>
+            </ul>
+        </li>
+       </ul>
+       <div class="clear"></div>
+    </header>
     <script src="main.js"></script>
 </body>
 </html>
